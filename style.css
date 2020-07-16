@@ -38,6 +38,8 @@ nav ul li {
 	padding-bottom: 15px;
 	padding-left: 5px;
 	padding-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 
 	list-style-type:none;
 }
