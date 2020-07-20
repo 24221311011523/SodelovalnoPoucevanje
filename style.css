@@ -19,6 +19,7 @@ header {
 
 	background-color: rgb(0, 191, 255);
 	text-align: center;
+	border-radius: 15px;
 }
 
 nav {
@@ -34,6 +35,7 @@ nav {
 	margin-right: 0px;
 
 	background-color: rgb(255, 180, 0);
+	border-radius: 15px;
 }
 
 nav ul {
@@ -66,6 +68,7 @@ nav ul li a {
 
 	text-decoration: none;
 	background-color: rgb(255, 255, 0);
+	border-radius: 15px;
 }
 
 div.sayduck-3d-viewer-container {
@@ -84,9 +87,9 @@ div.sayduck-3d-viewer-container {
 	margin-left: 0px;
 	margin-right: 0px;
 
-
-	max-width: 850px;
+	max-width: 1250px;
 	background-color: rgb(174, 255, 153);
+	border-radius: 15px;
 }
 
 #t2 {
@@ -99,8 +102,9 @@ div.sayduck-3d-viewer-container {
 	margin-left: auto;
 	margin-right: auto;
 
-	max-width: 850px;
+	max-width: 1250px;
 	background-color: rgb(120, 156, 255);
+	border-radius: 15px;
 }
 
 #t3 {
@@ -113,8 +117,9 @@ div.sayduck-3d-viewer-container {
 	margin-left: auto;
 	margin-right: 0px;
 
-	max-width: 850px;
+	max-width: 1250px;
 	background-color: rgb(250, 255, 153);
+	border-radius: 15px;
 }
 
 #t4 {
@@ -127,6 +132,7 @@ div.sayduck-3d-viewer-container {
 	margin-left: auto;
 	margin-right: auto;
 
-	max-width: 850px;
+	max-width: 1250px;
 	background-color: rgb(250, 133, 165);
+	border-radius: 15px;
 }
