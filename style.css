@@ -6,10 +6,10 @@ body {
 }
 
 header {
-	float: left;
+	display: block;
 
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: 0px;
@@ -17,61 +17,108 @@ header {
 	margin-left: 0px;
 	margin-right: 0px;
 
-	background-color: rgb(0, 191, 255);
+	background-color: rgb(0, 190, 255);
 	text-align: center;
 	border-radius: 15px;
 }
 
-nav {
-	float: right;
+#menu {
+	background-color: rgb(255, 170, 0);
+	border-radius: 15px;
 
-	padding-top: 0px;
-	padding-bottom: 10px;
-	padding-left: 0px;
-	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 0px;
 	margin-top: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	margin-left: 0px;
 	margin-right: 0px;
-
-	background-color: rgb(255, 180, 0);
-	border-radius: 15px;
 }
 
-nav ul {
-}
+#menu a {
+	background: linear-gradient(rgb(255, 255, 0), rgb(225, 225, 0), rgb(255, 255, 0));
+	border-radius: 10px;
 
-nav ul li {
-	float: left;
-
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-
-	list-style-type:none;
-}
-
-nav ul li a {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
 
-	text-decoration: none;
-	background-color: rgb(255, 255, 0);
-	border-radius: 15px;
+	cursor: pointer;
 }
 
-div.sayduck-3d-viewer-container {
+#menu a:active {
+	background: linear-gradient(rgb(100, 240, 30), rgb(100, 200, 30), rgb(100, 240, 30));
+}
+
+nav {
+}
+
+nav ul {
+	list-style: none;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+	display: none;
+}
+
+nav ul li {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+
+	background: linear-gradient(rgb(0, 200, 255), rgb(0, 170, 255), rgb(0, 200, 255));
+	border-radius: 10px;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+nav ul li a:active {
+	color: black;
+}
+
+#l1 {background: linear-gradient(rgb(174, 255, 153), rgb(174, 255, 153), rgb(174, 255, 153)); border-style: solid; border-width: thin;}
+#l2 {background: linear-gradient(rgb(255, 153, 153), rgb(255, 153, 153), rgb(255, 153, 153)); border-style: solid; border-width: thin;}
+#l3 {background: linear-gradient(rgb(100, 180, 255), rgb(100, 180, 255), rgb(100, 180, 255)); border-style: solid; border-width: thin;}
+#l4 {background: linear-gradient(rgb(255, 255, 150), rgb(255, 255, 150), rgb(255, 255, 150)); border-style: solid; border-width: thin;}
+#l5 {background: linear-gradient(rgb(150, 255, 255), rgb(150, 255, 255), rgb(150, 255, 255)); border-style: solid; border-width: thin;}
+#l6 {background: linear-gradient(rgb(220, 180, 120), rgb(220, 180, 120), rgb(220, 180, 120)); border-style: solid; border-width: thin;}
+#l7 {background: linear-gradient(rgb(180, 120, 180), rgb(180, 120, 180), rgb(180, 120, 180)); border-style: solid; border-width: thin;}
+#l8 {background: linear-gradient(rgb(255, 230, 0), rgb(255, 230, 0), rgb(255, 230, 0)); border-style: solid; border-width: thin;}
+#l9 {background: linear-gradient(rgb(110, 130, 255), rgb(110, 130, 255), rgb(110, 130, 255)); border-style: solid; border-width: thin;}
+#l10 {background: linear-gradient(rgb(160, 110, 30), rgb(160, 110, 30), rgb(160, 110, 30)); border-style: solid; border-width: thin;}
+#l11 {background: linear-gradient(rgb(120, 200, 120), rgb(120, 200, 120), rgb(120, 200, 120)); border-style: solid; border-width: thin;}
+
+#Mod {
 	clear: both;
 	max-width: 900px;
 	margin: auto;
@@ -103,7 +150,7 @@ div.sayduck-3d-viewer-container {
 	margin-right: auto;
 
 	max-width: 1250px;
-	background-color: rgb(120, 156, 255);
+	background-color: rgb(255, 153, 153);
 	border-radius: 15px;
 }
 
@@ -118,7 +165,7 @@ div.sayduck-3d-viewer-container {
 	margin-right: 0px;
 
 	max-width: 1250px;
-	background-color: rgb(250, 255, 153);
+	background-color: rgb(100, 180, 255);
 	border-radius: 15px;
 }
 
@@ -133,6 +180,111 @@ div.sayduck-3d-viewer-container {
 	margin-right: auto;
 
 	max-width: 1250px;
-	background-color: rgb(250, 133, 165);
+	background-color: rgb(255, 255, 150);
+	border-radius: 15px;
+}
+
+#t5 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+	max-width: 1250px;
+	background-color: rgb(150, 255, 255);
+	border-radius: 15px;
+}
+
+#t6 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
+	max-width: 1250px;
+	background-color: rgb(220, 180, 120);
+	border-radius: 15px;
+}
+
+#t7 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: 0px;
+
+	max-width: 1250px;
+	background-color: rgb(180, 120, 180);
+	border-radius: 15px;
+}
+
+#t8 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
+	max-width: 1250px;
+	background-color: rgb(255, 230, 0);
+	border-radius: 15px;
+}
+
+#t9 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+	max-width: 1250px;
+	background-color: rgb(110, 130, 255);
+	border-radius: 15px;
+}
+
+#t10 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
+	max-width: 1250px;
+	background-color: rgb(160, 110, 30);
+	border-radius: 15px;
+}
+
+#t11 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: 0px;
+
+	max-width: 1250px;
+	background-color: rgb(120, 200, 120);
 	border-radius: 15px;
 }
