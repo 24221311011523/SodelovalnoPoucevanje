@@ -52,6 +52,10 @@ header {
 	cursor: pointer;
 }
 
+#menu a:hover {
+	background: linear-gradient(rgb(100, 240, 30), rgb(100, 200, 30), rgb(100, 240, 30));;
+}
+
 #menu a:active {
 	background: linear-gradient(rgb(100, 240, 30), rgb(100, 200, 30), rgb(100, 240, 30));
 }
@@ -89,7 +93,7 @@ nav ul li a {
 	text-decoration: none;
 	color: black;
 
-	background: linear-gradient(rgb(0, 200, 255), rgb(0, 170, 255), rgb(0, 200, 255));
+	background: linear-gradient(rgb(255, 180, 50), rgb(255, 160, 30), rgb(255, 180, 50));
 	border-radius: 10px;
 
 	padding-top: 10px;
@@ -102,21 +106,27 @@ nav ul li a {
 	margin-right: 0px;
 }
 
-nav ul li a:active {
+nav ul li a:hover {
 	color: black;
+	background: linear-gradient(rgb(255, 255, 0), rgb(225, 225, 0), rgb(255, 255, 0));
 }
 
-#l1 {background: linear-gradient(rgb(174, 255, 153), rgb(174, 255, 153), rgb(174, 255, 153)); border-style: solid; border-width: thin;}
-#l2 {background: linear-gradient(rgb(255, 153, 153), rgb(255, 153, 153), rgb(255, 153, 153)); border-style: solid; border-width: thin;}
-#l3 {background: linear-gradient(rgb(100, 180, 255), rgb(100, 180, 255), rgb(100, 180, 255)); border-style: solid; border-width: thin;}
-#l4 {background: linear-gradient(rgb(255, 255, 150), rgb(255, 255, 150), rgb(255, 255, 150)); border-style: solid; border-width: thin;}
-#l5 {background: linear-gradient(rgb(150, 255, 255), rgb(150, 255, 255), rgb(150, 255, 255)); border-style: solid; border-width: thin;}
-#l6 {background: linear-gradient(rgb(220, 180, 120), rgb(220, 180, 120), rgb(220, 180, 120)); border-style: solid; border-width: thin;}
-#l7 {background: linear-gradient(rgb(180, 120, 180), rgb(180, 120, 180), rgb(180, 120, 180)); border-style: solid; border-width: thin;}
-#l8 {background: linear-gradient(rgb(255, 230, 0), rgb(255, 230, 0), rgb(255, 230, 0)); border-style: solid; border-width: thin;}
-#l9 {background: linear-gradient(rgb(110, 130, 255), rgb(110, 130, 255), rgb(110, 130, 255)); border-style: solid; border-width: thin;}
-#l10 {background: linear-gradient(rgb(160, 110, 30), rgb(160, 110, 30), rgb(160, 110, 30)); border-style: solid; border-width: thin;}
-#l11 {background: linear-gradient(rgb(120, 200, 120), rgb(120, 200, 120), rgb(120, 200, 120)); border-style: solid; border-width: thin;}
+nav ul li a:active {
+	color: black;
+	background: linear-gradient(rgb(100, 240, 30), rgb(100, 200, 30), rgb(100, 240, 30));
+}
+
+#l1 {padding-right: 210px;}
+#l2 {padding-right: 151px;}
+#l3 {padding-right: 10px;}
+#l4 {padding-right: 14px;}
+#l5 {padding-right: 185px;}
+#l6 {padding-right: 179px;}
+#l7 {padding-right: 262px;}
+#l8 {padding-right: 262px;}
+#l9 {padding-right: 273px;}
+#l10 {padding-right: 264px;}
+#l11 {padding-right: 280px;}
 
 #Mod {
 	clear: both;
